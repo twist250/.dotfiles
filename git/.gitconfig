@@ -1,0 +1,9 @@
+[user]
+	name = IRADUKUNDA Olivier
+	email = iradukundaolivier@awesomity.rw
+[branch]
+	autoSetuprebase = always
+[credential]
+	helper = store
+[core]
+	autocrlf = input
