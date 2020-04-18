@@ -166,3 +166,13 @@ autoload -Uz compinit && compinit -i
 #autoload -Uz promptinit
 #promptinit
 #prompt pure
+
+
+# stow (th stands for target=home)
+stowth() {
+  stow -vSt ~ $1
+}
+
+unstowth() {
+  stow -vDt ~ $1
+}
